@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+    font-family: 'Poppins';
+    font-size: .875rem;
+    font-weight: 500;
+    margin: 0;
+}
+header > div {
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+nav {
+    width: 525px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+.black-heart {
+    width: 17.5px;
+    margin-right: 1rem;
+}
+.black-heart-logo{
+    text-decoration: none;
+}
+.npm{
+    width: 65px;
+    margin: .5rem .25rem;
+}
+.npm-logo{
+    padding-top: .5em;
+}
+.search-wrapper{
+    position: relative;
+}
+.search-img{
+    position: absolute;
+    color: #191919;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 12px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.search-bar{
+    width: 65em;
+    padding: 12px 15px 12px 35px;
+    margin:7.5px 0px;
+    background-color: rgb(238, 236, 236);
+    border: 0px;
+    outline: none;
+}
+.search-button{
+    background-color: rgb(255, 45, 45);
+    color: white;
+    border: 1.5px ridge rgb(209, 209, 209);
+    padding: 11px;
+    position: relative;
+    left: -1%;
+    letter-spacing: 1px;
+}
+.join-login{
+    position: relative;
+    left: -1%;
+}
+.join-button{
+    border: 1.4px solid rgb(167, 167, 167);
+    color: rgb(80, 80, 80);
+    padding: 3.5px 13.5px;
+    text-decoration: none;
+}
+.login{
+    color: rgb(80, 80, 80);
+    text-decoration: none;
+    padding-left: 10px;
+}
+#section-one{
+    display:flex;
+    background-color: rgba(232,217,217,.3);
+    justify-content:center;
+    width: 100%;
+    padding-bottom: 1em;
+    margin-bottom: 7.5em;
+}
+#section-one h2{
+    text-align: center;
+    font-size: 50px;
+    margin: 100px 0px 30px 0px;
+}
+#section-one div{
+    width: 40em;
+}
+#section-one p{
+    text-align: center;
+    width: 25em;
+    padding: 0% 18%;
+}
+.section-one-buttons{
+    align-content: center;
+    padding: 7% 0% 25%;
+}
+.c-plans{
+    border: 1px hidden;
+    background-color: #FB3B49;
+    padding: 10px 35px;
+    margin: 0% 19%;
+    color: white;
+    text-decoration: none;
+    box-shadow: 8px 8px 0 rgba(251,59,73,.2)
+}
+.free-join{
+    text-decoration: none;
+    color: black;
+}
+#section-two{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+#section-two div{
+    width: 50em;
+    padding-bottom: 12.5em;
+}
+#section-two h2{
+    font-size: 1.85em;
+}
+.triangle-hexagon{
+    width: 10em;
+    margin: 1.5em 15em;
+}
+#section-two p{
+    text-align: center;
+    width: 48em;
+    padding: 0% 11.6%;
+    font-size: .8em;
+}
+.section-three-columns{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 85em;
+    padding: 1em 2.5em;
+    text-align: -webkit-center;
+}
+.section-three-columns h3{
+    color: #ED1C24;
+}
+.section-three-columns article{
+    width: 25%;
+}
+.section-three-columns p{
+    font-size: .8em;
+    width: 15.5em;}
+.section-three-icons{
+    width: 35px;
+    height: 35px;
+}
+.org-button-div{
+    align-content: center;
+    padding: 8% 0% 8%;
+}
+.org-button{
+    border: 1px hidden;
+    color: whitesmoke;
+    background-color: black;
+    text-decoration: none;
+    padding: 10px 90px;
+    box-shadow: 8px 8px 0 rgba(128,83,35,.2)
+}
